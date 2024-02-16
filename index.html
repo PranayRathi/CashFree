@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://sdk.cashfree.com/js/v3/cashfree.js"></script>
+    </head>
+    <body>
+    </body>
+    <script>
+        (function () {
+            const cashfree = Cashfree({
+                mode: "sandbox",
+            });
+            
+            cashfree.checkout({
+                paymentSessionId: "session_tCwdiPgKJQGoM9gHd7ZNJISmd89wrkQEK2UfzhoafMqocLFw69KRnM3w-cv6FNP5be0w82gVsi--oB1URgn3QjKyueyLjRDCrBCZ7fxDDdOl"
+            });
+            
+        })();
+    </script>
+</html>
